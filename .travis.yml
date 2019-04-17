@@ -191,6 +191,7 @@ deploy:
     skip_cleanup: true
     only:
       - master
+      - releases/0.6.6
     on:
       repo: ray-project/ray
       condition: $LINUX_WHEELS = 1 || $MAC_WHEELS = 1
